@@ -16,8 +16,13 @@
     <Filter Include="소스 파일\MainFilter">
       <UniqueIdentifier>{a9be0147-6996-4d5a-bbbd-954348ec5e27}</UniqueIdentifier>
     </Filter>
-    <Filter Include="TestAFIlter">
-      <UniqueIdentifier>{f4c8c93a-1477-4833-ac0a-e05f4c97737b}</UniqueIdentifier>
+
+    <Filter Include="소스 파일\TestC">
+      <UniqueIdentifier>{b33441da-f29b-46d0-bd1e-6fd62d71cc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestAFilter">
+      <UniqueIdentifier>{4a625243-9541-450e-ba8f-8d6a2191609b}</UniqueIdentifier>
+
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -33,13 +38,18 @@
     <ClInclude Include="WindowsProject2.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="BBBB.h">
+      <Filter>소스 파일\TestC</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WindowsProject2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="소스.cpp">
-      <Filter>TestAFIlter</Filter>
+
+      <Filter>TestAFilter</Filter>
+
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
