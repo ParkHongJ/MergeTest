@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\TestC">
       <UniqueIdentifier>{b33441da-f29b-46d0-bd1e-6fd62d71cc24}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TestAFilter">
+      <UniqueIdentifier>{4a625243-9541-450e-ba8f-8d6a2191609b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -37,6 +40,9 @@
   <ItemGroup>
     <ClCompile Include="WindowsProject2.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>TestAFilter</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
