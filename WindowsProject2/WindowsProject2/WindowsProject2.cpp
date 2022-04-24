@@ -3,7 +3,7 @@
 
 #include "framework.h"
 #include "WindowsProject2.h"
-
+#include "B.h"
 #define MAX_LOADSTRING 100
 
 // 전역 변수:
