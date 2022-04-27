@@ -125,6 +125,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
     int bacde;
     int ImTestB;
+    int ImTest;
     switch (message)
     {
     case WM_COMMAND:
