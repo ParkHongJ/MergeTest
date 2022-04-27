@@ -123,6 +123,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 //
 LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
+    int bacde;
     switch (message)
             int wmId = LOWORD(wParam);
             // 메뉴 선택을 구문 분석합니다:
