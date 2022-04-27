@@ -148,6 +148,7 @@
   <ItemGroup>
     <ClCompile Include="WindowsProject2.cpp" />
     <ClCompile Include="소스.cpp" />
+    <ClCompile Include="소스1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="WindowsProject2.rc" />
